@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="/public/file1.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/c23782603f.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/web.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css " rel="stylesheet ">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper ">
+
+        <!-- Top Container -->
+        <section class="top-container ">
+            <!-- Navigation -->
+            <nav class="main-nav ">
+                <ul class="logo ">
+                    <a href="# ">Decryptor</a>
+                </ul>
+                <ul class="links ">
+                    <li>
+                        <a href="# ">Home</a>
+                    </li>
+                    <li>
+                        <a href="# ">About</a>
+                    </li>
+                    <li>
+                        <a href="# ">Services</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <header class="showcase ">
+                <h1>The Code Breaker</h1>
+                <p>Encrypt new messages using codes, or decrypt others</p>
+            </header>
+        </section>
+
+        <!-- Boxes Section -->
+        <form class="boxes" action="/" method="POST">
+            <div class="form 1 ">
+                <i class="fas fa-user-secret fa-2x "></i>
+                <h3>Text To Decrypt</h3>
+                <textarea name="data" type="text " class="textarea " rows="6 " cols="60" placeholder="Text To Decrypt"></textarea>>
+                </textarea> <br> <br>
+                <input name="shift2" type="text " placeholder="decryption key (26-encryption key): only enter for small samples." size="58 " class="textarea">>
+                <br>
+                <br> <button class="button_style bn1 " type="button ">
+                        submit
+                    </button>
+            </div>
+            <div class="form 2 ">
+                <i class="fas fa-user-secret fa-2x "></i>
+                <h3>Text To Encrypt</h3>
+                <textarea name="encrypt_data" type="text " class="textarea " rows="6 " cols="60 " placeholder="Text To Encrypt"></textarea>>
+                </textarea> <br> <br>
+                <input name="shift1" type="text " size="58 " class="textarea " placeholder="Encryption key">>
+                <br>
+                <br> <button class="button_style bn2 " type="button ">
+                        submit
+                    </button>
+            </div>
+        </form>
+
+
+</body>
+
+</html>

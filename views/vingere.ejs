@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/c23782603f.js"></script>
+    <title>Vingere Cipher Decryptor</title>
+</head>
+
+<body>
+    <div class="wrapper ">
+
+        <!-- Top Container which contains details about the cipher-->
+        <section class="top-container ">
+            <!-- Navigation -->
+            <nav class="main-nav ">
+                <ul class="logo ">
+                    <a href="# ">Decryptor</a>
+                </ul>
+                <ul class="links ">
+                    <li>
+                        <a href="# ">Ceasar Cipher Decryptor</a>
+                    </li>
+                    <li>
+                        <a href="# ">Vingere Cipher Decryptor</a>
+                    </li>
+                    <li>
+                        <a href="# ">Services</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <header class="showcase ">
+                <h1>The Vingere Cipher</h1>
+                <p>Learn about the vingere cipher, and encrypt and decrypt your own codes</p>
+            </header>
+        </section>
+
+        <!-- Boxes Section -->
+        <form class="boxes" action="/" method="POST">
+            <div class="info">
+                <h4>What is the vingere cipher?</h4>
+                <p>The vingere cipher is a polyalphabetic substitution cipher which takes the Ceasar Cipher to a new level of complexity
+                </p>
+                <h4>The decryption algorithms</h4>
+                <h5>1. Decryption using a given key</h5>
+                <p>This algorithm takes the least time, and simply decrypts the cipher using the grid</p>
+                <h5>2. Decryption when only key-length is known</h5>
+                <p>This algorithm uses the keylength to find all the possible keys for the data, and finds the most likely key with a dictionary check</p>
+                <h5>3. Decryption with no information</h5>
+                </p>
+            </div>
+
+
+            <div class="form 1 ">
+                <i class="fas fa-user-secret fa-2x "></i>
+                <h3>Text To Decrypt</h3>
+                <textarea name="data" type="text " class="textarea " rows="6 " cols="60" placeholder="Text To Decrypt"></textarea>>
+                </textarea> <br> <br>
+                <input name="shift2" type="text " placeholder="decryption key (26-encryption key): only enter for small samples." size="58 " class="textarea">>
+                <br>
+                <br> <button class="button_style bn1 " type="button ">
+                        submit
+                    </button>
+            </div>
+            <div class="form 2 ">
+                <i class="fas fa-user-secret fa-2x "></i>
+                <h3>Text To Encrypt</h3>
+                <textarea name="encrypt_data" type="text " class="textarea " rows="6 " cols="60 " placeholder="Text To Encrypt"></textarea>>
+                </textarea> <br> <br>
+                <input name="shift1" type="text " size="58 " class="textarea " placeholder="Encryption key">>
+                <br>
+                <br> <button class="button_style bn2 " type="button ">
+                        submit
+                    </button>
+            </div>
+        </form>
+
+
+
+        <div class="answers ">
+            <div class="decrypt ">
+                <h3> Your Encrypted Or Decrypted Code</h3>
+                <textarea rows="6 " cols="60"><%=data%> <%=encrypt_data%></textarea>>
+            </div>
+        </div>
+
+        <script>
+            $(".decrypt").hide();
+            $(".decrypt").show(1000);
+        </script>
+
+
+
+
+</body>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "decryptor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decryptor.js",
+  "dependencies": {
+    "@pelevesque/permutate": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "check-word": "^1.1.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "jsonfile": "^6.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
