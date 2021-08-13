@@ -2,7 +2,7 @@
 
 **Design**
 
-This project contains a Node.Js backend that interfaces with the front-end to break user entered ciphers using letter frequency analysis. It can break both Vigenere and Caesar ciphers without any key provided.
+This project contains a Node.Js backend that interfaces with the front-end to break user entered ciphers using letter frequency analysis. It can break both Vigenere and Caesar ciphers without any key provided. Making a change
 
 
 
